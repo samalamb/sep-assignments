@@ -1,0 +1,27 @@
+I thought that this checkpoint wouldn't give me as much trouble as it did. Adding
+in something in a linked list seems like it would take a lot longer than adding something
+to the end of an array.
+
+add_to_tail: The first thing that the function checks for is if there is no item
+in the linked list already, if there is none then it makes the node both the head
+and the tail. If there is already a node in the linked list then it starts its
+search for the end of the list.
+
+remove_tail: This one checks for it if the list is only one long, if it is then
+it will set both the head and tail to nil. If it's not then it searches the list
+using a variable to hold the current place in the list and then the place of the
+one before it. Once it find the list end by checking to see if the current node
+variable is nil then it changes the tail of the list to be the one before it.
+
+print: This one was one of the simple ones. Finds all the items in the list and
+adds the data of the node to an array and then joins the list together at the end.
+
+delete: This one will search through the list and then find the node that is in
+the linked list. It also stores the value of the node before so that when the
+node is finally found then it makes the following node the .next of the one before it.
+
+add_to_front: This one is just a simple switch. The node in the parameter has its
+next set to the head and then sets the head of the list to the node.
+
+remove_front: This one gets the value of the new beginning by getting the head.next
+value and then sets that value to the new head. 
