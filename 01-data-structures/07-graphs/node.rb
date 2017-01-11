@@ -17,23 +17,17 @@ class Node
 
   def find_kevin_bacon(node)
     titles = []
-    visited = []
-    i = 0
 
     node.film_actor_hash.each do |key, value|
       value.each do |actor|
         if actor == 'Kevin Bacon'
           titles << key
         else
-          visited << actor.name
           find_kevin_bacon(actor)
         end
       end
     end
 
-    titles.each do |title|
-      puts visited[i] + title + "and"
-      i += 1
-    end
+    return titles
   end
 end
