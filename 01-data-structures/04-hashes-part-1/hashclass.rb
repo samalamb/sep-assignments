@@ -1,3 +1,5 @@
+require_relative 'hashclass'
+
 class HashClass
 
   def initialize(size)
