@@ -1,5 +1,5 @@
 Doubling the size of the array every time can cause for a really big array really quickly if you're adding a lot of data in at
-once. It will also leave the array open to a possibillity of resizing the array when it's not necessary, say that there are
+once. It will also leave the array open to a possibility of resizing the array when it's not necessary, say that there are
 two keys that have the same value, but there are still open spaces in the array it will double the array anyways to appease
 the keys which wasn't necessary. There is also more of a chance for keys to have the same index as another key as the size
 increases. 
