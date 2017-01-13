@@ -1,0 +1,26 @@
+Three Algorithms
+
+1. Making Brewed Coffee
+  - Plug in coffee maker
+  - Choose the yield size
+  - Fill tank with appropriate amount of water
+  - Add in appropriate amount of coffee grounds
+  - press the brew button
+  - Once finished pour into cup
+
+2. Making a Latte (using an espresso machine)
+  - Designate cup size
+  - Pour in milk to pitcher
+  - Start steaming milk
+  - Queue espresso shots to be pulled
+  - Put cup so that it catches the shots
+  - Wait for shots to finish pulling
+  - Pour milk into cup
+  - Serve
+
+3. Making Toast
+  - Get a slice of toast out of the bread bag
+  - Put slice of toast into the toaster
+  - Pull down on the spring
+  - Wait for toast to be prepared
+  - Serve on plate
