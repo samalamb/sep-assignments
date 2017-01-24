@@ -13,21 +13,22 @@ class Node
     self.film_actor_hash[title] = node_array
   end
 
-  def add_actor(node, title)
-
-  def find_kevin_bacon(node)
-    titles = []
+  def find_kevin_bacon(node, titles)
 
     node.film_actor_hash.each do |key, value|
       value.each do |actor|
-        if actor == 'Kevin Bacon'
+        if actor != 'Kevin Bacon'
           titles << key
+          find_kevin_bacon(actor, titles)
         else
-          find_kevin_bacon(actor)
+          if titles.length <= 6
+            return titles
+          else
+            raise "There weren't enough movies with Kevin Bacon, sorry."
+          end
         end
       end
     end
-
-    return titles
   end
+
 end
