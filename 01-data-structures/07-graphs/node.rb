@@ -30,5 +30,4 @@ class Node
       end
     end
   end
-
 end
