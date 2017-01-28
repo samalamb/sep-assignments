@@ -1,0 +1,56 @@
+1. Analogy
+  - You can relate the O(1) and O(n^2) by a person going on a jog. O(1) would be
+  like if the jogger is running on flat ground for a mile. O(n^2) would be like
+  if the same jogger had to run up an incline for the whole mile. They will get
+  to the mile, but it will take them a little more time.
+
+2. Best Case Scenario:
+  - The best case scenario of a binary search would be that the value that you're
+  looking for is in the first index.
+
+3. Worst Case Scenario
+  - The worst case scenario would be like if you're trying to find a friend in a
+  line at your favorite restaurant. You start with the very first person and
+  going down the line find out that they are at the very back.
+
+4. Bounded Case Scenario
+  - A bounded case scenario would be if like you're trying to find the same friend
+  and as you go down the line you find them in the exact middle.
+
+5. Graph
+
+6. f(2^n)
+
+7. O(2^n)
+
+8.
+  def worst_case(array)
+    puts "n   | Number of iterations\n\n"
+
+    array.each do |x|
+      if x < 9
+        puts "#{x}   |  #{x}"
+      elsif x < 100
+        puts "#{x}  |  #{x}"
+      else
+        puts "#{x} | #{x}"
+      end
+    end
+  end
+
+  * Had to make it so that the data is displayed well... it was bugging me.
+9.
+  Finding the Big-O of a linear graph would just be the length of the array in
+  question. So if there are 100 items in the array and you're looking for a
+  particular item the worst case scenario would be the item at the 99th index
+  (starting at 0 going to 99).
+
+10. What is the Big-O of binary search?
+  - The Big-O of binary search would be the worst case scenario or O(log(n))
+
+11. What is the Big-Omega of binary search?
+  - The Big-Omega would be the best case scenario meaning that the value that
+  you are looking for is going to be at the exact middle of the array
+
+12. What is the Big-Theta of binary search?
+  - The Big-Theta is the middle ground on the second iteration
