@@ -6,16 +6,22 @@
 
 2. Best Case Scenario:
   - The best case scenario of a binary search would be that the value that you're
-  looking for is in the first index.
+  looking for is exactly in the middle.
 
 3. Worst Case Scenario
-  - The worst case scenario would be like if you're trying to find a friend in a
-  line at your favorite restaurant. You start with the very first person and
-  going down the line find out that they are at the very back.
+  - The worst case scenario would be if you're looking for your friend in a
+  restaurant that for some reason organizes people in line by first name (Pays to
+  know an Aaron).and you start at the middle and then go to the middle and realize
+  that they're not there, but you know that they're in the first half of the line
+  so you go to the middle of the first half of the line and try again. You would
+  do this over and over again until there are only two people in the line and
+  realize that the last person that you pick is your friend.
 
 4. Bounded Case Scenario
   - A bounded case scenario would be if like you're trying to find the same friend
-  and as you go down the line you find them in the exact middle.
+  and you start at the middle, but they are not there. Instead of having to go
+  and half the line all the way until there are two left; you find your friend
+  around the middle ground. 
 
 5. Graph
 
