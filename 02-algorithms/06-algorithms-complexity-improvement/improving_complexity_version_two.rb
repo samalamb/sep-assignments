@@ -8,5 +8,6 @@ class TimeCompexity
     end
     # Sorting isn't necessary at this point
     array_to_hash
+    
   end
 end

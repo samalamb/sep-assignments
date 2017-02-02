@@ -21,5 +21,5 @@ class ComplexityOne
     end
     sorted_array
   end
-  
+
 end
