@@ -1,0 +1,30 @@
+1. What is the Big-O of the following algorithm?
+  - The Big-O would be constant time or O(1) as it JUST outputs the same number as it
+  receives in the parameters.
+
+2. What is the Big-O of the following algorithm?
+  - The Big-O would be linear time or O(n) it goes through each item in an array
+  and once it goes through each item it prints out the largest in the bunch.
+
+3. What is the Big-O of the following algorithm?
+  - This is is a bit trickier since it's using a two dimensional array. Basically
+  what it's meant to be is an array or arrays so it loops through the first item
+  in the main array and then loops through all the items in the subarray. This
+  would exponentially increase the number of iterations as it's looping through
+  multiple arrays, so if going through one array is O(n) then it would be O(n*m)
+  where m is the number of items in each inner array and n is the number of items
+  in the main array.
+
+4. What is the Big-O of the following algorithm?
+  - This would be O(2^n) since it's a recursive function it would have to run
+  multiple times before getting the desired output. In this case n represents
+  the number of times it recursively runs since each recursive call calls the
+  function twice.
+
+5. What is the Big-O of the following algorithm?
+  - This algorithm would be O(n) since the function is iterating it's summation
+  by 'n' amount of times.
+
+6. What is the Big-O of the following algorithm?
+  - This is a Quick Sort algorithm which is has a Big-O of O(n^2). I learned that
+  when researching Quick Sort for the previous checkpoint.
