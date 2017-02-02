@@ -1,0 +1,13 @@
+1. improving_complexity_version_one: Improve the code
+  - This one is the most simple one. I simplified the function by doing a flatten instead of the long loop.
+  Next I made the for loop a .each loop like in the example in the checkpoint.
+
+2. improving_complexity_version_two
+  - This one is about saving time, so I used a built in hash since you can find any value in a hash without having to know it's index.
+
+3. improving_complexity_version_three
+  - This one is about saving space so I used built in ruby functions and only used them on the original array no other arrays needed.
+  Still using flatten to make the time quicker as well.
+  Side note when copy and pasting the code for the checkpoint assignment it doesn't properly combine the arrays.
+
+  
