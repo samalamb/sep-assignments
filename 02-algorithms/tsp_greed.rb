@@ -4,12 +4,12 @@ class TravelSales
      neighbor_cities = current_city.neightbors
      next_city = neighbor_cities[0]
 
-     current_neighbor.each do |city|
-       if current_neighbor.distance < next_city.distance
-         current_neighbor = next_city
+     neighbor_cities.each do |city|
+       if city.distance < next_city.distance
+         city = next_city
        end
-       current_city.visited = true
-       next_city = current_city
+       city.visited = true
+       next_city = city
      end
    end
  end
